@@ -1,6 +1,6 @@
 # Transformer-Polyp-Tracker
 
-This repository hosts the Transformer-Polyp-Tracker, a machine learning project that uses django, pytorch to accomplish the real-time detection of polyps in colocopic videos.
+This repository hosts the **Transformer-Polyp-Tracker**, a machine learning project that uses django, pytorch to accomplish the real-time detection of polyps in colocopic videos.
 
 ## Installation
 
