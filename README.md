@@ -14,12 +14,29 @@ To install the required packages, follow these steps:
 
 ## Usage
 
-To run the project, follow these steps:
+### Starting SQLite
+
+Before running the application, you'll need to start the SQLite database. To do this, follow these steps:
 
 1. Open a terminal/command prompt window
 2. Navigate to the project directory: `cd transformer-polyp-tracker`
-3. Open a web browser and go to http://127.0.0.1:8000/
-4. Navigate through the navigation links to explore the features of the application.
+3. Run the following command to create the SQLite database: `python manage.py migrate`
+
+### Running Migration
+
+```python
+python manage.py migrate tpt reports
+```
+
+### Running the Application
+
+Once the database is set up, you can run the application using the following command:
+
+```python
+python manage.py runserver
+```
+
+Then, open a web browser and go to http://127.0.0.1:8000/ to use the application.
 
 ## Acknowledgements
 
