@@ -16,8 +16,10 @@ To install the required packages, follow these steps:
 
 To run the project, follow these steps:
 
-* Run the application: `python manager.py runserver`
-* Open the browser: `http://127.0.0.1:8000/`
+1. Open a terminal/command prompt window
+2. Navigate to the project directory: `cd transformer-polyp-tracker`
+3. Open a web browser and go to http://127.0.0.1:8000/
+4. Navigate through the navigation links to explore the features of the application.
 
 ## Acknowledgements
 
